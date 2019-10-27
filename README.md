@@ -9,6 +9,14 @@ This simple maps code allows most ( and soon to be more with your contributions 
 - simple update concept
 
 ## Overview
-The main concept of BetterMaps is that you just pass the key:vales of the param syou want to update and it takes care of the rest. Want to update the markers? just pass in that array. Want to change a callback script, just pass in that key.
+The main concept of BetterMaps is that you just pass the key:vales of the param syou want to update and it takes care of the rest. Want to update the markers, just pass in that array. Want to change a callback script, just pass in that key.
 
-
+ Attribute  | Desctiption |
+| ------------- | ------------- |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+| `travelMode`  |   |
+|  `trafficModel` | Waht method will be used to calculate traffic times. Options:  `Pptinistic` `Pesimistic` `Best Guess`  |
+| unitSystem  | 'metric' or imperial if not used ( default)|
