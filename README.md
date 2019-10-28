@@ -19,7 +19,7 @@ Refer to google maps API for more details regarding some attributes.
 | fileName  |  |FileMaker callback file name use get(filename) required for callbacks, only needs to be set once.  |
 | mapBorderArray |  |If set, this array will be used to draw the map boarder |
 | mapCenter |  |Centers map on passed `location` |
-| markersArray | I |f set, thei array of marker objects will be drawn on the map |
+| markersArray |  |If set, thei array of marker objects will be drawn on the map |
 | neighborhoodBorderArray |  |If set, an neabourhood array ( outline) will be drawn |
 | routesArray |  |If set, this array will be passed in as an array of routes for multi-route ruoting.|
 | scriptDirectionResults |  |Script name to callback to when the directions/routing has returned from Google |
