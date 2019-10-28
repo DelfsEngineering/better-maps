@@ -29,7 +29,7 @@ Refer to google maps API for more details regarding some attributes.
 | showDirectionsPanel | Boolean, if true the sidebar will show the direction results |
 | showInfoWindow | Shows marking info window for passed `id` |
 | showTraffic  | Boolean - if true, will show the traffic layer  |
-| travelMode  | 'Driving', `Transit`, `Walking`, `Bicycling`  |
+| travelMode  | Type of transportation for calculating routes. Options: `Driving`, `Transit`, `Walking`, `Bicycling`  |
 | trafficModel | Waht method will be used to calculate traffic times. Options:  `Pptinistic`, `Pesimistic`, `Best Guess`,  |
 | unitSystem  | `metric` or imperial if not used ( default)|
 | mapZoom | Map zoom level, 1-19? |
