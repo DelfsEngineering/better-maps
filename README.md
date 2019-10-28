@@ -14,7 +14,7 @@ The main concept of BetterMaps is that you just pass the key:vales of the param 
 Refer to google maps API for more details regarding some attributes.
 
  Attribute  | Value | Description |
-| ------------- | | ------------- |
+| ------------- |------------- | ------------- |
 | departureTimeOffset  | |  Used for calulating offset time for traffic |
 | fileName  |  |FileMaker callback file name use get(filename) required for callbacks, only needs to be set once.  |
 | mapBorderArray |  |If set, this array will be used to draw the map boarder |
