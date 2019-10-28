@@ -5,7 +5,7 @@ This simple maps code allows most ( and soon to be more with your contributions 
 
 ## Features
 - Single API interface script handles all data and configurations
-- 2 way interactivity to FM so additional g=Google instantiation hits are mitigated
+- 2 way interactivity to FM so additional Google instantiation hits are mitigated
 - simple update concept
 
 ## Overview
