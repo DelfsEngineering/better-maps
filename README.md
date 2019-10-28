@@ -31,5 +31,5 @@ Refer to google maps API for more details regarding some attributes.
 | showTraffic  | Boolean - if true, will show the traffic layer  |
 | travelMode  | 'Driving', `Transit`, `Walking`, `Bicycling`  |
 | trafficModel | Waht method will be used to calculate traffic times. Options:  `Pptinistic`, `Pesimistic`, `Best Guess`,  |
-| unitSystem  | 'metric' or imperial if not used ( default)|
+| unitSystem  | `metric` or imperial if not used ( default)|
 | mapZoom | Map zoom level, 1-19? |
