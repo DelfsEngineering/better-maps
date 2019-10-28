@@ -1,7 +1,7 @@
 # Better-Maps
 Simple but flexible Maps module for FileMaker distributed in Carafe. 
 
-This simple maps code allows most ( and soon to be more with your contributions ) Google maps feautres often needed in FileMaker web viewers. This code is a port for some pervious code to take advantage of Carafe, an open source module for code distribution for FileMaker JS modules.
+This simple maps code allows most ( and soon to be more with your contributions ) Google maps feautres often needed in FileMaker web viewers. This code is a port from some pervious code to take advantage of Carafe, an open source module for code distribution for FileMaker JS modules.
 
 ## Features
 - Single API interface script handles all data and configurations
