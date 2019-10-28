@@ -15,19 +15,21 @@ Refer to google maps API for more details regarding some attributes.
 
  Attribute  | Desctiption |
 | ------------- | ------------- |
-|   |   |
-|   |   |
-|   |   |
-| `departureTimeOffset`  |  Used for calulating offset time for traffic |
-|   |   |
-|   |   |
-| `fileName`  | FileMaker callback file name use get(filename)  |
-| `setBounds`  | Will set the map bounds   |
-| `showTraffic`  | Boolean - if true, will show the traffic layer  |
-| `trafficModel` | Waht method will be used to calculate traffic times. Options:  `Pptinistic`, `Pesimistic`, `Best Guess`,  |
-|   |   |
-| `travelMode`  | 'Driving', `Transit`, `Walking`, `Bicycling`  |
-|   |   |
-|   |   |
-
+| departureTimeOffset  |  Used for calulating offset time for traffic |
+| fileName  | FileMaker callback file name use get(filename) required for callbacks, only needs to be set once.  |
+| mapBorderArray | If set, this array will be used to draw the map boarder |
+| mapCenter | Centers map on passed `location` |
+| markersArray | If set, thei array of marker objects will be drawn on the map |
+| neighborhoodBorderArray | If set, an neabourhood array ( outline) will be drawn |
+| routesArray | If set, this array will be passed in as an array of routes for multi-route ruoting.|
+| scriptDirectionResults | Sript name to callback to when the directions/routing has returned from Google |
+| scriptSendCoordinatesToFM |Script name to callback to when sending coordinates back to FM, if not set, no callback in performed. Coords are sen on things like mamp move and zoom change.|
+| scriptSendGeoToFM | Script name to callback to when the map is clicked |
+| setBounds  | Will set the map bounds   |\
+| showDirectionsPanel | Boolean, if true the sidebar will show the direction results |
+| showInfoWindow | Shows marking info window for passed `id` |
+| showTraffic  | Boolean - if true, will show the traffic layer  |
+| travelMode  | 'Driving', `Transit`, `Walking`, `Bicycling`  |
+| trafficModel | Waht method will be used to calculate traffic times. Options:  `Pptinistic`, `Pesimistic`, `Best Guess`,  |
 | `unitSystem`  | 'metric' or imperial if not used ( default)|
+| mapZoom | Map zoom level, 1-19? |
