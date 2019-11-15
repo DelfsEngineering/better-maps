@@ -15,7 +15,7 @@ Refer to google maps API for more details regarding some attributes.
 
  Attribute  | Value | Description |
 | ------------- |------------- | ------------- |
-| departureTimeOffset  | |  Used for calulating offset time for traffic |
+| departureTimeOffset  | |  Used for calulating offset time for traffic in mS from now |
 | fileName  |  |FileMaker callback file name use get(filename) required for callbacks, only needs to be set once.  |
 | mapBorderArray |  |If set, this array will be used to draw the map boarder |
 | mapCenter |  |Centers map on passed `location` |
