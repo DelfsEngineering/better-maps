@@ -21,6 +21,7 @@ Refer to google maps API for more details regarding some attributes.
 | mapCenter |  |Centers map on passed `location` |
 | markersArray |  |If set, thei array of marker objects will be drawn on the map |
 | neighborhoodBorderArray |  |If set, an neabourhood array ( outline) will be drawn |
+| optimizeWaypoints | true | If true, the routes will be optimized |
 | routesArray |  |If set, this array will be passed in as an array of routes for multi-route ruoting.|
 | scriptDirectionResults |  |Script name to callback to when the directions/routing has returned from Google |
 | scriptSendCoordinatesToFM | | Script name to callback to when sending coordinates back to FM, if not set, no callback in performed. Coords are sen on things like mamp move and zoom change.|
