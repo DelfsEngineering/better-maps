@@ -19,6 +19,7 @@ Refer to google maps API for more details regarding some attributes.
 | fileName  |  |FileMaker callback file name use get(filename) required for callbacks, only needs to be set once.  |
 | mapBorderArray |  |If set, this array will be used to draw the map boarder |
 | mapCenter |  |Centers map on passed `location` |
+| cluster |  | Boolean - If true, hides markers and shows clusters |
 | markersArray |  |If set, thei array of marker objects will be drawn on the map |
 | neighborhoodBorderArray |  |If set, an neabourhood array ( outline) will be drawn |
 | optimizeWaypoints | true | If true, the routes will be optimized |
